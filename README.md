@@ -1,10 +1,6 @@
 # face-generator-VAE
 An attempt to generate faces using a convolutional variational autoencoder by training on the UTKFace dataset
 
-# Weights
-
-The weights can be downloaded at https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing
-
 # Dataset used
 The dataset used is the cropped version of the UTKFace dataset. The dataset contains 128 by 128 images of human faces.  
 It can be found [here](https://susanqq.github.io/UTKFace/)
@@ -16,7 +12,12 @@ dimensional space whose distribution is a standard normal distribution. Random v
 The model uses 'mean squared error' for it's reconstruction loss and KL divergence loss.
 
 # Training
-The model was trained for 300 epochs on a GPU instance.
+The model was trained for 300 epochs on a GPU instance.  
+The results of the model can be seen below.  
+<img src="assets/faces.png" height=50% width=50%>
+
+# Weights
+The weights can be downloaded [here](https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing)
 
 # Libraries used
 - [Tensorflow](https://www.tensorflow.org/)
