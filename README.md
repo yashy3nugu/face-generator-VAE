@@ -29,6 +29,23 @@ The model was trained for 300 epochs on a GPU instance.
 The results of the model can be seen below ⬇️.  
 <img src="assets/faces.png" height=70% width=70%>
 
+# Requirements ✅
+- ###### python 3.8.5
+- ###### Anaconda 4.9.2+
+
+Note: for running on a GPU instance you will require to download the respective CUDA and cuDNN (if the GPU present is CUDA compatible) versions to work with tensorflow.
+CUDA compatibility can be checked [here](https://developer.nvidia.com/cuda-gpus)
+
+# Instructions 📝 (For testing on CPU)
+- Clone the repository
+- Download the dataset from [here](https://susanqq.github.io/UTKFace/) into the same directory as the cloned repo
+- Open anaconda prompt and cd into the repo
+- Run `conda env create -f environment.yml`
+- Run `jupyter notebook` and make sure you are using the kernel 'tensorflow-cpu'
+- Run the notebook `face-generator.ipynb`
+
+Note: It is advised to train the model on a GPU. Training on a CPU can be time consuming.
+
 # Weights
 The weights of the network after training can be downloaded [here](https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing) for testing purposes
 
