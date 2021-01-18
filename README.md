@@ -14,7 +14,7 @@ The model uses 'mean squared error' for it's reconstruction loss and KL divergen
 # Training
 The model was trained for 300 epochs on a GPU instance.  
 The results of the model can be seen below.  
-<img src="assets/faces.png" height=50% width=50%>
+<img src="assets/faces.png" height=70% width=70%>
 
 # Weights
 The weights can be downloaded [here](https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing)
