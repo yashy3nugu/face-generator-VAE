@@ -16,7 +16,7 @@ The objective of this project is to train a variational autoencoder on the UTKFa
 
 - Variational autoencoders have a KL divergence term in their loss functions which forces the entire latent space for the encodings to be a standard normal multivariate        distribution.
 
-- Since the latent space is now continuous, we can now sample from it and use the decoder to generate meaningful images.
+- Since the latent space is now continuous, we can now sample from it and use the decoder to generate new meaningful images not present in the dataset (generation).
 
 - The model uses convolutional layers for generating encodings and transposed convolutional layers to decode.
 
