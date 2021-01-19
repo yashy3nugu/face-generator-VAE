@@ -43,7 +43,7 @@ The weights of the network after training can be downloaded [here](https://drive
 # Instructions 📝 (For testing on CPU)
 - Clone the repository
 - Download the dataset from [here](https://susanqq.github.io/UTKFace/) into the same directory as the cloned repo (Only required for training from scratch)
-- Download the weights from [here](https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing)for testing
+- Download the weights from [here](https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing) for testing
 - Open anaconda prompt and cd into the repo
 - Run `conda env create -f environment.yml`
 - Run `jupyter notebook` and make sure you are using the kernel 'tensorflow-cpu'
