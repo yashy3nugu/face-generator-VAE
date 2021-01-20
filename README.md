@@ -6,9 +6,6 @@ The dataset used is the cropped version of the UTKFace dataset. The dataset cont
 It can be found [here](https://susanqq.github.io/UTKFace/)
 
 # Objective
-The objective of this project is to train a variational autoencoder to map an image to a multivariate probability distribution in a 2048
-dimensional space whose distribution is a standard normal distribution. Random vectors can then be sampled from the distribution to generate random faces.
-
 The objective of this project is to train a variational autoencoder on the UTKFace dataset so that new faces can be generated.  
 
 - Unlike standard encoders which give a discrete values for encodings, Variational autoencoders create a latent space probability distribution.
