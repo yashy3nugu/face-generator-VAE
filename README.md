@@ -43,8 +43,9 @@ The weights of the network after training can be downloaded [here](https://drive
 - Download the weights from [here](https://drive.google.com/drive/folders/1KDRJRzU0rXM8M6CFXn9glJ-BZhI4a4hZ?usp=sharing) for testing
 - Open anaconda prompt and cd into the repo
 - Run `conda env create -f environment.yml`
-- Run `conda activate tensorflow-cpu`
-- Run `jupyter notebook` and make sure you are using the kernel 'tensorflow-cpu'
+- Run python `-m ipykernel install --user --name=VAE` to list it in the jupyter notebook's kernels. (Run conda `install -c anaconda ipykernel` in case ipykernel not installed)
+- Run `conda activate VAE`
+- Run `jupyter notebook` and make sure you are using the kernel 'VAE'
 - Run the notebook `face-generator.ipynb`
 
 Note: It is advised to train the model on a GPU. Training on a CPU can be time consuming.
