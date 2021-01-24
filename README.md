@@ -44,7 +44,7 @@ The weights of the network after training can be downloaded [here](https://drive
 - Open anaconda prompt and cd into the repo
 - Run `conda env create -f environment.yml`
 - Run `conda activate VAE`
-- Run python `-m ipykernel install --user --name=VAE` to list it in the jupyter notebook's kernels. (Run conda `install -c anaconda ipykernel` in case ipykernel not installed)
+- Run `python -m ipykernel install --user --name=VAE` to list it in the jupyter notebook's kernels. (Run conda `install -c anaconda ipykernel` in case ipykernel not installed)
 - Run `jupyter notebook` and make sure you are using the kernel 'VAE'
 - Run the notebook `face-generator.ipynb`
 
